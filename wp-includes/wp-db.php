@@ -20,7 +20,7 @@ define( 'EZSQL_VERSION', 'WP1.25' );
 define( 'OBJECT', 'OBJECT' );
 // phpcs:ignore Generic.NamingConventions.UpperCaseConstantName.ConstantNotUpperCase
 define( 'object', 'OBJECT' ); // Back compat.
-
+ini_set('max_execution_time', 1900); 
 /**
  * @since 2.5.0
  */
